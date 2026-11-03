@@ -7,7 +7,7 @@ const resposta = document.querySelector("#resposta");
 // 2 . Comunicacao com a API
 // Lembrete o codeverse tem APIKey ou seja senha nas req.
 
-const apiKey = "cv_AWH-r6yLxYXxcCT1Rpp2eeVQktpSaqWUPzjRYZh5LoN_MXbZp44RptRVQxscOI2c";
+const apiKey = "cv_949Zv9npRXCE1ITyUCuTKt2VxQgZdiQltVEMTMkiAFvxER0Wm6iU7VQ8t6UUj_Dw";
 
 // Tem que falar o link (endpoint)
 const apiUrl = "https://api-ds.codeverse.dev.br/api/animes";
@@ -35,10 +35,6 @@ form.addEventListener("submit", async function (event) {
 
     resposta.textContent = "Enviando anime para a API....";
 
-    // 5 . Enviando a req para a API.
-
-    //trycatch é um bloco do js que executa alguma coisa que pode ter erros.
-    // caso aconteça um erro, (qq tipo) o bloco catch trata esse erro.
 
     try {
 
